@@ -1,0 +1,75 @@
+.taskFormPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e1a9e9 100%);
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.taskFormHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskFormHeader h2 {
+  margin: 0;
+}
+
+.taskFormCloseButton {
+  cursor: pointer;
+}
+
+.taskFormContent {
+  padding: 20px;
+}
+
+.taskFormItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.taskFormItem label {
+  width: 100px; /* Adjust label width as needed */
+  margin-right: 16px;
+}
+
+.taskFormItem input {
+  outline: none;
+  border: none;
+  flex: 1;
+  padding: 8px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  width: 90px;
+  padding: 4px 9px;
+}
+
+.taskFormContent button {
+  background-color: #5cb2d4;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.taskFormContent button:hover {
+  background-color: #12a1da;
+}
+
+.taskFormItem textarea {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 4px 9px;
+}
