@@ -1,11 +1,14 @@
 import "./App.css";
+import Header from "./components/Header";
+import MainBody from "./components/MainBody";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>app</h1>
+      <Header />
+      <MainBody />
     </>
   );
-}
+};
 
 export default App;

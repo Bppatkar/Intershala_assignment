@@ -1,6 +1,77 @@
 #root {
-  max-width: 1280px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  color: #000;
+}
+
+.header {
+  max-width: 1080px;
+  display: flex;
+  margin: 0 30px;
+  justify-content: space-between;
+}
+
+.header img {
+  right: 0;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.mainBody_container {
+  margin-top: 15px;
+  max-width: 1080px;
+  height: 80vh;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.fitering_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtering {
+  display: flex;
+  margin: 20px;
+  font-weight: 600;
+}
+
+.filter_input input {
+  width: 103px;
+  margin-left: 13px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 4px;
+}
+select {
+  outline: none;
+  margin-left: 13px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  width: 90px;
+  padding: 4px 9px;
+}
+
+button {
+  margin: 20px;
+  margin-left: 53px;
+  background-color: #5cb2d4;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  padding: 4px 32px;
+}
+
+.sorting_part {
+  margin: 20px;
+  font-weight: 600;
 }
